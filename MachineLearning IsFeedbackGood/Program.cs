@@ -10,8 +10,8 @@ namespace MachineLearning_IsFeedbackGood
 {
     class FeedbackTrainingData
     {
-        [Column(Ordinal: "0", TypeName ="Label")]//niedziala
-        public bool isGood { get; set; }jjgghcfch
+        [Column(Ordinal: "0", TypeName ="Label")]
+        public bool isGood { get; set; }
 
         [Column(ordinal: "1")]
         public string feedbackText { get; set; } 
